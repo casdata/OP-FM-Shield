@@ -1,0 +1,9 @@
+{
+  "cpu": {
+    "fqbn": "arduino:sam:arduino_due_x_dbg",
+    "name": "Arduino Due (Programming Port)",
+    "type": "serial"
+  },
+  "secrets": [],
+  "included_libs": []
+}
