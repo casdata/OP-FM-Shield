@@ -19,6 +19,9 @@ And the best part above all is that software and hardware parts of the OP-FM Shi
 * https://vgmrips.net/packs/chip/ymf262
 
 
+## Schematic Diagram
+![Schematic](https://github.com/casdata/OP-FM-Shield/blob/main/Hardware/Schematic_DueFMSynth.png)
+
 
 ## IMPORTANT
 The shield works either with the original or the Chinese clones Arduino Due boards, but it’s recommended to use the original due to some clone boards (almost all) comes with an issue in the power supply circuit that induces noise into the MIDI port when powering it over the power jack, also in the clone boards the shield doesn't boot until the reset button in the Arduino board is pressed after its connected to a power source.
@@ -26,7 +29,7 @@ The shield works either with the original or the Chinese clones Arduino Due boar
 
 
 
-<!-- CONTACT -->
+
 ## Contact
 
 Sergio Daniel Castañeda N. - [@twitter_handle](https://twitter.com/CasdataSergio) - casdata@gmail.com
