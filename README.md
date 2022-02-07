@@ -1,6 +1,12 @@
 # OP-FM-Shield
 FM Synthesizer and VGM player for the Arduino Due
 
+<p align="center">
+  <img width=60% height=60% src="https://github.com/casdata/OP-FM-Shield/blob/main/Photos/OP-FM.jpg">
+</p>
+                                                                                                     
+                                                                         
+
 The OP-FM Shield is an FM synthesizer and VGM player for the Arduino Due development board, it’s powered by the YMF262 (OPL3) sound chip from Yamaha. Is compatible with any keyboard with a 5 pin MIDI OUT port.
 
 In Synth mode, the YMF262 can work in OPL2 or OPL3 mode depending on the selected voice, a maximum of 12 keys can be pressed simultaneously in OPL2 and 6 keys for OPL3. New OPL2 and OPL3 voices can be created from scratch, also the Included voices in the firmware can be modified, the user has access to almost all the parameters of the YMF262, why almost all? The five native rhythms are not available. 
@@ -18,9 +24,28 @@ And the best part above all is that software and hardware parts of the OP-FM Shi
 * https://opl.wafflenet.com
 * https://vgmrips.net/packs/chip/ymf262
 
+                                                                                                     
+## Board
+Front            |  Back
+:-------------------------:|:-------------------------:
+![](https://github.com/casdata/OP-FM-Shield/blob/main/Photos/Front.jpg)  |  ![](https://github.com/casdata/OP-FM-Shield/blob/main/Photos/Back.jpg)
 
 ## Schematic Diagram
-![Schematic](https://github.com/casdata/OP-FM-Shield/blob/main/Hardware/Schematic_DueFMSynth.png)
+![Schematic](https://github.com/casdata/OP-FM-Shield/blob/main/Hardware/Schematic_DueFMSynth.png)                                                                                                     
+## Required Arduino Libraries
+Before the firmware is uploaded, these libraries must be installed:
+* MIDI Library by Francois Best (https://github.com/FortySevenEffects/arduino_midi_library)
+* Adafruit GFX Library by Adafruit (https://github.com/adafruit/Adafruit-GFX-Library)
+* Adafruit BusIO (https://github.com/adafruit/Adafruit_BusIO)
+* Adafruit ST7735 and ST7789 Library by Adafruit (https://github.com/adafruit/Adafruit-ST7735-Library)
+* Adafruit seesaw Library by Adafruit (https://github.com/adafruit/Adafruit_Seesaw)
+* Encoder by Paul Stoffregen (https://github.com/PaulStoffregen/Encoder)
+* ArduinoThread by Ivan Seidel (https://github.com/ivanseidel/ArduinoThread)
+* DueTimer by Ivan Seidel (https://github.com/ivanseidel/DueTimer)
+
+## Alternative Firmware Download
+The code for the firmware is available in the 'Software" folder but can also be downloaded from the Arduino Cloud (https://create.arduino.cc/editor/casdata/655ca870-2cc1-4bf0-9da4-6e03262c0709/preview)
+
 
 
 ## IMPORTANT
