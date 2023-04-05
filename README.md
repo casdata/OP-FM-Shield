@@ -39,6 +39,7 @@ Before the firmware is uploaded, these libraries must be installed:
 * Adafruit BusIO (https://github.com/adafruit/Adafruit_BusIO)
 * Adafruit ST7735 and ST7789 Library by Adafruit (https://github.com/adafruit/Adafruit-ST7735-Library)
 * Adafruit seesaw Library by Adafruit (https://github.com/adafruit/Adafruit_Seesaw)
+* SD by Arduino, SparkFun (https://github.com/arduino-libraries/SD)
 * Encoder by Paul Stoffregen (https://github.com/PaulStoffregen/Encoder)
 * ArduinoThread by Ivan Seidel (https://github.com/ivanseidel/ArduinoThread)
 * DueTimer by Ivan Seidel (https://github.com/ivanseidel/DueTimer)
